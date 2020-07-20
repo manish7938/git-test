@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>@DateTime.Today.Year</div>
+    <header>
+        @RenderSection("header",false)
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <p>My Footer</p>
+        @await Component.InvokeAsync("First")
+    </footer>
+
+</body>
+</html>

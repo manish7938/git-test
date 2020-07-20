@@ -1,0 +1,10 @@
+﻿@*@model CourseProjectFinal.ViewModels.FirstViewViewModel*@
+
+
+@*@foreach (var item in Model.MyType)
+{
+    <p>@item.MyId</p>
+    <p>@item.MyValue</p>
+}*@
+
+@Html.Partial("~/Views/PartialView/FirstPartialView.cshtml")
