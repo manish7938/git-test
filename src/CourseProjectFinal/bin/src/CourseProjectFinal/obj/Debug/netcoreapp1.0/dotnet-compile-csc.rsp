@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\Debug\netcoreapp1.0\CourseProjectFinal.dll"
+"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\src\CourseProjectFinal\bin\Debug\netcoreapp1.0\CourseProjectFinal.dll"
 -r:"C:\Users\jcherri\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll"
 -r:"C:\Users\jcherri\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll"
 -r:"C:\Users\jcherri\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
@@ -203,7 +203,7 @@
 -r:"C:\Users\jcherri\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\jcherri\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\jcherri\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\CourseProjectFinaldotnet-compile.deps.json",CourseProjectFinal.deps.json
+-resource:"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\CourseProjectFinaldotnet-compile.deps.json",CourseProjectFinal.deps.json
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Program.cs"
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Startup.cs"
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Controllers\Csharp6new.cs"
@@ -215,6 +215,8 @@
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Entities\SeedData.cs"
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150020_MyFirstMigration.cs"
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150020_MyFirstMigration.Designer.cs"
+"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150427_MyFirstMigration1.cs"
+"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150427_MyFirstMigration1.Designer.cs"
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\ApplicationDbContextModelSnapshot.cs"
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Models\Arrays.cs"
 "C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Models\Conditionals.cs"

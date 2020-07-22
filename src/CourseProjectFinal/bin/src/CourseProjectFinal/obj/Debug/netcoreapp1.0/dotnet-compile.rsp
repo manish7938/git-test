@@ -1,5 +1,5 @@
---temp-output:C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\
---out:C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\Debug\netcoreapp1.0\CourseProjectFinal.dll
+--temp-output:C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\
+--out:C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\src\CourseProjectFinal\bin\Debug\netcoreapp1.0\CourseProjectFinal.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -207,7 +207,7 @@
 --reference:C:\Users\jcherri\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\jcherri\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\jcherri\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\CourseProjectFinaldotnet-compile.deps.json",CourseProjectFinal.deps.json
+--resource:"C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\bin\src\CourseProjectFinal\obj\Debug\netcoreapp1.0\CourseProjectFinaldotnet-compile.deps.json",CourseProjectFinal.deps.json
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Program.cs
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Startup.cs
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Controllers\Csharp6new.cs
@@ -219,6 +219,8 @@ C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\Co
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Entities\SeedData.cs
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150020_MyFirstMigration.cs
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150020_MyFirstMigration.Designer.cs
+C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150427_MyFirstMigration1.cs
+C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\20160724150427_MyFirstMigration1.Designer.cs
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Migrations\ApplicationDbContextModelSnapshot.cs
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Models\Arrays.cs
 C:\Users\jcherri\documents\visual studio 2015\Projects\CourseProjectFinal\src\CourseProjectFinal\Models\Conditionals.cs

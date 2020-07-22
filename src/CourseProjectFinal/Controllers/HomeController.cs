@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using CourseProjectFinal.Models;
 using CourseProjectFinal.ViewModels;
 using CourseProjectFinal.Services;
+using CourseProjectFinal.Entities;
 
 namespace CourseProjectFinal.Controllers
 {
@@ -13,15 +14,18 @@ namespace CourseProjectFinal.Controllers
     public class HomeController : Controller
     {
         private IMyInjectedService myService;
-
-        public HomeController(IMyInjectedService myService)
+        private ApplicationDbContext _myContext;
+     
+        public HomeController(IMyInjectedService myService, ApplicationDbContext context)
         {
             this.myService = myService;
+            this._myContext = context;
         }
         public async Task<IActionResult> Index()
         {
             var item = await GetGuid();
             ViewBag.myobject = myService;
+            SeedData.Seed(_myContext);
             return View(item);
         }
 

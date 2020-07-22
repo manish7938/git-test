@@ -10,6 +10,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using CourseProjectFinal.Services;
 using Microsoft.AspNetCore.Routing;
+using Microsoft.EntityFrameworkCore;
+using CourseProjectFinal.Entities;
 
 namespace CourseProjectFinal
 {
@@ -39,7 +41,7 @@ namespace CourseProjectFinal
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
             services.AddTransient<IMyInjectedService, MyInjectedService>();
-
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             services.AddMvc();
         }
 
@@ -62,7 +64,7 @@ namespace CourseProjectFinal
             }
 
             app.UseApplicationInsightsExceptionTelemetry();
-
+            
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
